@@ -1,9 +1,11 @@
+//index.js
 //Description: Node.js HTML client
 //requires: npm install express ejs axios body-parser
 
 const express = require('express');
 const axios = require('axios');
 const app = express();
+const path = require("path");
 var bodyParser = require('body-parser');
 
 //Base URL for the API
